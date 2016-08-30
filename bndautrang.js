@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://lh4.googleusercontent.com/-9H0a0Y47h30/V8UN2lEj3SI/AAAAAAAAAJc/TkF-Nhcp26oct99Bs529NZnuOU12Jj2cQCL0B/w500-h375-no/anh-dep.jpg' width='500px'/><br/>Dao Hàng Tận Nhà</a>. Miện Phí. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://lh4.googleusercontent.com/-9H0a0Y47h30/V8UN2lEj3SI/AAAAAAAAAJc/TkF-Nhcp26oct99Bs529NZnuOU12Jj2cQCL0B/w500-h375-no/anh-dep.jpg' width='500px'/><br/>Dao Hàng Tận Nhà</a>. Miễn Phí. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
